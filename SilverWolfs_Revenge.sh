@@ -7,7 +7,7 @@ IFACE="eth0"
 TIME=15
 GATEWAY=$(ip route | grep default | awk '{print$3}')
 
-echo -e "\033[1;38;5;141m$(curl -s https://raw.githubusercontent.com/REZONAZERO/BashScripts/main/silver_wolfs_revenge.txt)\033[0m"
+echo -e "\033[1;38;5;141m$(curl -s https://raw.githubusercontent.com/REZONAZERO/BashScripts/main/banners/silver_wolfs_revenge.txt)\033[0m"
 
 read -p "Scan Network?(Y/n): " confirm && [[ $confirm == [yY] ]] || exit 1
 
