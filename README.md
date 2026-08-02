@@ -4,6 +4,9 @@
 
 ---
 
+
+---
+
 ## 🛠️ Tools
 
 ### `SilverWolfs_Revenge.sh`
@@ -15,6 +18,24 @@ Deploys banners from the `banners/` directory. Simple and straightforward — li
 **Type:** Process investigation / forensics
 
 Scans for zombie processes and other suspicious activity on the system. Useful for quick system checks and identifying potential persistence mechanisms.
+
+### `ghost-sysinfo.sh`
+**Type:** System information / monitoring tool
+
+A stylish, color-coded system information script that displays key metrics about your Linux system:
+- Hostname, OS, Kernel, Uptime, Load Average
+- CPU Model and Cores
+- Memory (Total, Used, Usage %)
+- Disk (Total, Used, Usage %)
+- Network (IP Address)
+- Logged-in Users
+
+Perfect for quick system health checks or as a starting point for more complex monitoring solutions.
+
+### `log-analyzer.sh`
+**Type:** Log analysis / reporting
+
+Analyzes system logs and generates a report of potential issues, failed login attempts, or other notable events. Useful for security audits and troubleshooting.
 
 ---
 
@@ -45,9 +66,9 @@ Useful for:
 ## 🧪 Research Notes
 
 These scripts are a mix of:
-- **Forensic tools** (process hunting)
+- **Forensic tools** (process hunting, log analysis)
 - **Deception tools** (honeypots)
-- **Quick utilities** (banner management)
+- **System utilities** (system info, banner management)
 
 They were written during live experiments and may contain raw, unpolished code — treat them as learning material and adapt them to your own workflow.
 
