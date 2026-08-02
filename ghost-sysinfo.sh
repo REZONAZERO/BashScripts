@@ -68,7 +68,7 @@ users=$(who 2>/dev/null | wc -l || echo "0")
 
 #Display
 echo "${WHITE}  ═══════════════════════════════════════════════${NC}"
-echo "${WHITE}  ❄  SYSTEM INFORMATION  ❄${NC}"
+echo "${WHITE}  ❄             SYSTEM INFORMATION             ❄${NC}"
 echo "${WHITE}  ═══════════════════════════════════════════════${NC}"
 echo ""
 
@@ -106,5 +106,5 @@ print_info "Logged in" "$users"
 echo ""
 
 echo "${WHITE}  ──────────────────────────────────────────────${NC}"
-echo "${PURPLE}  ✦  Ghost System Info  ✦${NC}"
+echo "${PURPLE}  ❄            Ghost System Info            ❄${NC}"
 echo ""
